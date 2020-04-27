@@ -193,6 +193,78 @@ body {
 .card-icon {
   background: #27394e;
 }
+/*Form Section and Footer*/
+
+.form-section {
+  min-height: 92vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./img/contact-mountain.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapper {
+  background: rgba(18, 28, 39, 0.8);
+  color: white;
+  border-radius: 20px;
+}
+.form-head {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 7rem;
+}
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-email,
+.form-name {
+  padding: 3rem 15rem;
+}
+.form-email label,
+.form-name label {
+  padding: 1rem 2rem;
+}
+.form-email input,
+.form-name input {
+  padding: 0.6rem;
+}
+.form-wrapper button {
+  background: #4c6e97;
+  color: white;
+  border-style: none;
+  padding: 2rem;
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 5rem;
+}
+.footer-wrapper {
+  min-height: 8vh;
+  background: #131c27;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-wrapper h5 {
+  flex: 3 1 40rem;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+.footer-wrapper ul {
+  flex: 1 1 40rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 /*Media Querys*/
 @media screen and (max-width: 924px) {
@@ -229,6 +301,27 @@ body {
     -webkit-text-fill-color: white;
     padding: 5%;
   }
+  .footer-wrapper h5 {
+    padding: 2rem;
+    flex: 3 1 40rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
 }
 /*Iphone 7/8*/
 @media screen and (max-width: 375px) {
@@ -250,6 +343,27 @@ body {
     -webkit-text-fill-color: white;
     padding: 5%;
   }
+  .footer-wrapper h5 {
+    padding: 2rem;
+    flex: 3 1 40rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
 }
 /*Example:Iphone 5/5se or old devices*/
 @media screen and (max-width: 320px) {
@@ -270,5 +384,18 @@ body {
     background: rgba(19, 28, 39, 0.8);
     -webkit-text-fill-color: white;
     padding: 5%;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
   }
 }
