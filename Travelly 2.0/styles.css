@@ -42,6 +42,9 @@ body {
   color: white;
   min-height: 10rem;
   display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 .nav-bar {
   width: 90%;
@@ -65,7 +68,7 @@ body {
 }
 .hero-section {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url(./img/landing-page.jpg);
   background-size: cover;
   background-position: center;
@@ -90,6 +93,7 @@ body {
   border-style: none;
   padding: 1.8rem 5rem;
   transition: background 0.3s ease-in-out;
+  cursor: pointer;
 }
 .hero-btn:hover {
   background: #27394e;
@@ -244,6 +248,7 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 5rem;
+  cursor: pointer;
 }
 .footer-wrapper {
   min-height: 8vh;
@@ -265,7 +270,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
+button:focus {
+  background: #263b55;
+  outline-style: solid;
+  outline-color: #5f8cc2;
+}
 /*Media Querys*/
 @media screen and (max-width: 924px) {
   html {
