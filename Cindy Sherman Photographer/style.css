@@ -22,14 +22,23 @@ html {
   --header2: calc(3.5rem + 1vw);
   --header3: calc(3rem + 1vw);
   --header4: calc(2.4rem + 1vw);
-  --text: calc(1.5 + 1vw);
-  --big: calc(2.4rem + 1vw);
+  --text: calc(1.5rem + 1vw);
+  --big: calc(6rem + 1vw);
   --special-color: #906272;
-  --bg-color: #414141;
+  --background-color: #414141;
   --gray-text: #525252;
 }
+
 h1 {
   font-size: var(--header1);
+}
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: var(--text);
 }
 h2 {
   font-size: var(--header2);
@@ -38,27 +47,22 @@ h3 {
   font-size: var(--header3);
 }
 h4,
-h5,
-h6 {
+h5 {
   font-size: var(--header4);
 }
+
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-button,
-label,
-p,
-input,
-a {
-  font-size: var(--text);
-  text-decoration: none;
-  color: black;
 }
 
 body {
@@ -80,7 +84,7 @@ nav {
   min-height: 10vh;
   padding: 2rem 0rem;
 }
-#logo {
+.logo {
   flex: 1 1 20rem;
 }
 .nav-links {
