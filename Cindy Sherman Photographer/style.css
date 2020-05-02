@@ -394,9 +394,41 @@ footer h4 {
     text-align: center;
     padding: 1rem;
   }
+  .hero-introduction p {
+    padding: 3rem 3rem;
+    color: var(--gray-text);
+  }
+}
+@media screen and (min-width: 1700px) {
+  html {
+    --header1: 3rem;
+    --header2: 5rem;
+    --header3: 4rem;
+    --header4: 3rem;
+    --text: 3rem;
+    --big: 8rem;
+  }
 }
 @media screen and (max-width: 434px) {
   .about-img h5 {
     font-size: 3.5rem;
+  }
+  .hero-introduction p {
+    padding: 3rem 3rem;
+    color: var(--gray-text);
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    --header1: calc(1.6rem + 1vw);
+    --header2: calc(3.1rem + 1vw);
+    --header3: calc(2.6rem + 1vw);
+    --header4: calc(2rem + 1vw);
+    --text: calc(1.1rem + 1vw);
+    --big: calc(5.6rem + 1vw);
+  }
+  .hero-introduction p {
+    padding: 3rem 3rem;
+    color: var(--gray-text);
   }
 }
