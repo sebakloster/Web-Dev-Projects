@@ -19,16 +19,15 @@
     <header class="main-head">
       <nav>
         <h1 class="logo">Cindy Sherman</h1>
-        <input type="checkbox" class="menu-check" />
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
         </div>
       </nav>
     </header>
@@ -44,7 +43,7 @@
             illum enim voluptate architecto incidunt atque harum voluptatibus
             quis eaque!
           </p>
-          <a href="#gallery">Gallery</a>
+          <a href="#work">Gallery</a>
         </div>
         <div class="hero-img">
           <img
@@ -56,7 +55,7 @@
           <img src="./img/plant2.png" alt="" class="plant2 plant" />
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-img">
           <h5>MINIMAL</h5>
           <img src="./img/about-image.png" alt="portrait-picture" />
@@ -89,7 +88,7 @@
           </div>
         </div>
       </section>
-      <div class="gallery">
+      <div class="gallery" id="work">
         <div class="gallery-text">
           <h2>Quality Photography</h2>
           <p>Some of my best pictures</p>
@@ -99,7 +98,7 @@
         <img class="gallery3" src="./img/gallery-3.jpg" alt="lady in t-shirt" />
         <img class="gallery4" src="./img/gallery-4.jpg" alt="lady in jacket" />
       </div>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="form-wrapper flex">
           <h2>
             Get in <br />
@@ -128,5 +127,6 @@
         </ul>
       </footer>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>
