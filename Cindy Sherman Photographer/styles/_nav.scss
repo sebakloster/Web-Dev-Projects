@@ -29,19 +29,20 @@ nav {
 .hero-introduction {
   flex: 2 1 40rem;
   text-align: center;
+  p {
+    padding: 5rem 10rem;
+    color: var(--gray-text);
+  }
+  h2 {
+    padding-top: 3rem;
+  }
+  a {
+    padding: 2rem 8rem;
+    border: 3px solid black;
+    margin-bottom: 4rem;
+  }
 }
-.hero-introduction p {
-  padding: 5rem 10rem;
-  color: var(--gray-text);
-}
-.hero-introduction h2 {
-  padding-top: 3rem;
-}
-.hero-introduction a {
-  padding: 2rem 8rem;
-  border: 3px solid black;
-  margin-bottom: 4rem;
-}
+
 .hero-img {
   flex: 1 1 40rem;
   background: linear-gradient(#dad8dd, #dad1d4);
