@@ -1,0 +1,133 @@
+/*Media Querys*/
+@media screen and (max-width: 924px) {
+  html {
+    font-size: 50%;
+  }
+  .moving-cloud-1 {
+    animation: cloudsAnimation 3s infinite alternate ease-in-out;
+    height: 45rem;
+  }
+  .moving-cloud-2 {
+    top: 15%;
+    height: 30rem;
+    z-index: -1;
+    opacity: 0.5;
+    animation: cloudsAnimation 4s infinite alternate ease-in-out;
+  }
+}
+@media screen and (max-width: 710px) {
+  html {
+    font-size: 50%;
+  }
+  .nav-logo {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .nav-bar ul {
+    padding: 2rem;
+  }
+  .locations-div h3 {
+    font-weight: 100;
+    padding-top: 1.5rem;
+    background: rgba(19, 28, 39, 0.8);
+    -webkit-text-fill-color: white;
+    padding: 5%;
+  }
+  .footer-wrapper h5 {
+    padding: 2rem;
+    flex: 3 1 40rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+}
+/*Iphone 7/8*/
+@media screen and (max-width: 375px) {
+  .moving-cloud-1 {
+    animation: cloudsAnimation 3s infinite alternate ease-in-out;
+    height: 35rem;
+  }
+  .moving-cloud-2 {
+    top: 15%;
+    height: 20rem;
+    z-index: -1;
+    opacity: 0.5;
+    animation: cloudsAnimation 4s infinite alternate ease-in-out;
+  }
+  .locations-div h3 {
+    font-weight: 100;
+    padding-top: 1.5rem;
+    background: rgba(19, 28, 39, 0.8);
+    -webkit-text-fill-color: white;
+    padding: 5%;
+  }
+  .footer-wrapper h5 {
+    padding: 2rem;
+    flex: 3 1 40rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+}
+/*Example:Iphone 5/5se or old devices*/
+@media screen and (max-width: 320px) {
+  .moving-cloud-1 {
+    animation: cloudsAnimation 3s infinite alternate ease-in-out;
+    height: 27rem;
+  }
+  .moving-cloud-2 {
+    top: 15%;
+    height: 12rem;
+    z-index: -1;
+    opacity: 0.5;
+    animation: cloudsAnimation 4s infinite alternate ease-in-out;
+  }
+  .locations-div h3 {
+    font-weight: 100;
+    padding-top: 1.5rem;
+    background: rgba(19, 28, 39, 0.8);
+    -webkit-text-fill-color: white;
+    padding: 5%;
+  }
+  .form-wrapper {
+    background: rgba(18, 28, 39, 0.8);
+    color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+  }
+  .form-email label,
+  .form-name label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+}
