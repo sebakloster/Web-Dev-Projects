@@ -3,7 +3,7 @@ $header2: 4rem;
 $header3: 2.5rem;
 $header4: 2rem;
 $text: 2.5rem;
-$gradient: linear-gradient(to-left, #38d39f, #38a4d3);
+$gradient: linear-gradient(to left, #38d39f, #38a4d3);
 $background-color: #154353;
 $gray-text: #2c2c2c;
 
@@ -28,9 +28,9 @@ $gray-text: #2c2c2c;
     display: none;
   }
   svg {
-    width: 80&;
+    width: 80%;
   }
-  .nav {
+  nav {
     width: 100%;
   }
 }
@@ -40,7 +40,7 @@ $gray-text: #2c2c2c;
     font-size: 45%;
   }
   svg {
-    height: 40%;
+    height: 60%;
   }
   .main-head {
     width: 100%;
@@ -51,7 +51,7 @@ $gray-text: #2c2c2c;
       flex: 1 1 20rem;
       margin-top: 2rem;
     }
-    nav {
+    ul {
       flex: 1 1 60rem;
       margin: 2rem 0rem;
     }
@@ -78,7 +78,7 @@ $gray-text: #2c2c2c;
     }
   }
   form {
-    padding: 0;
+    padding: 0rem;
     width: 100%;
   }
 }
